@@ -37,3 +37,7 @@ Use the `color-dark` attribute to customize the color in dark mode. It defaults 
 ```html
 <theme-switch … color="green" color="darkgreen"></<theme-switch>
 ```
+
+# Browsers/systems with no color scheme preference
+
+In cases where `prefers-color-scheme` is not natively supported you can still use Theme Switch to provide support for dark mode. The _Auto_ option will be removed from the control and light mode will automatically become the default theme.
